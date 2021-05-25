@@ -35,24 +35,45 @@
             android:background="#ff0000"
             android:id="@+id/linear_dog"
             android:orientation="vertical"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/dog1">
+            </ImageView>
         </LinearLayout>
         <LinearLayout
             android:background="#FFC107"
             android:id="@+id/linear_cat"
             android:orientation="vertical"
             android:visibility="invisible"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/cat1">
+            </ImageView>
         </LinearLayout>
         <LinearLayout
             android:background="#00ffff"
             android:id="@+id/linear_snail"
             android:orientation="vertical"
             android:visibility="invisible"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/sanil1">
+            </ImageView>
         </LinearLayout>
     </FrameLayout>
 </LinearLayout>
