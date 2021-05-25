@@ -13,11 +13,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_frame);
 
         linearDog = findViewById(R.id.linear_dog);
-        linearDog = findViewById(R.id.linear_cat);
-        linearDog = findViewById(R.id.linear_snail);
+        linearCat = findViewById(R.id.linear_cat);
+        linearSnail = findViewById(R.id.linear_snail);
 
         Button btnDog = findViewById(R.id.btn_dog);
         Button btnCat = findViewById(R.id.btn_cat);

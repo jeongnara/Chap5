@@ -39,7 +39,7 @@
             android:layout_height="match_parent">
         </LinearLayout>
         <LinearLayout
-            android:background="#00ffff"
+            android:background="#FFC107"
             android:id="@+id/linear_cat"
             android:orientation="vertical"
             android:visibility="invisible"
