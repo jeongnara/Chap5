@@ -10,16 +10,19 @@
         android:gravity="center"
         android:background="#000000">
         <Button
+            android:id="@+id/btn_dog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn1"
             android:layout_marginRight="10dp"/>
         <Button
+            android:id="@+id/btn_cat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn2"
             android:layout_marginRight="10dp"/>
         <Button
+            android:id="@+id/btn_snail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn3"
@@ -30,14 +33,14 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:background="#ff0000"
-            android:id="@+id/btn_dog"
+            android:id="@+id/linear_dog"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         </LinearLayout>
         <LinearLayout
             android:background="#00ffff"
-            android:id="@+id/btn_cat"
+            android:id="@+id/linear_cat"
             android:orientation="vertical"
             android:visibility="invisible"
             android:layout_width="match_parent"
@@ -45,7 +48,7 @@
         </LinearLayout>
         <LinearLayout
             android:background="#00ffff"
-            android:id="@+id/btn_snail"
+            android:id="@+id/linear_snail"
             android:orientation="vertical"
             android:visibility="invisible"
             android:layout_width="match_parent"
